@@ -1,0 +1,19 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.canvas {
+    position: relative;
+    display: flex;
+}
+.dot {
+    width: 15px;
+    height: 15px;
+    position: relative;
+    left: 50px;
+    top: 50px;
+    background-color: purple;
+    border-radius: 50%;
+}
